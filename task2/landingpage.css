@@ -1,0 +1,123 @@
+.level1{
+   
+    #call{
+        padding-left: 2%;
+
+    }
+    #mail{
+        padding-left:  2%;
+    }
+    button{
+        cursor: pointer;
+        
+        float: right;
+    }
+
+    background-image: url(bg.jpg);
+    height: 40px;
+    text-align: center;
+    padding-top: 15px;
+    color: aliceblue;
+    
+margin-bottom: 10px;
+   
+}
+.level2{
+    background-image: url(backgroundd.jpg);
+   b{
+    padding-left: 6%;
+   }
+   button{
+    cursor: pointer;
+   border: none;
+   text-decoration: none;
+    margin-left: 10px;
+    float: right;
+    border-radius: 10px;
+    border:2px solid black
+    
+   }
+ 
+   padding-top: 25px;
+   height: 70px;
+   margin-bottom: 10px;
+}
+.level3{
+    height: 300px;
+    background-image: url(softwaresoln.jpg);
+    background-size: cover;
+    margin-bottom: 10px;
+    
+}
+.column {
+    float: left;
+    width: 33.33%;
+    background-image: url(backgroundd.jpg);
+    
+  }
+  
+  /* Clear floats after the columns */
+  .level4:after {
+    content: "";
+    display: table;
+    clear: both;
+    margin-bottom: 10px;
+    
+    
+  }
+  .column5{
+    float: left;
+    width: 50%;
+    height: 267px;
+    background-image: url(bg.jpg);
+    color: aliceblue;
+    margin-bottom: 10px;
+  
+  }
+  button{
+    cursor: pointer;
+   border: none;
+   text-decoration: none;
+    margin-left: 10px;
+    border-radius: 10px;
+    border:2px solid black
+
+    
+    
+   }
+  
+  /* Clear floats after the columns */
+  .level5:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .column6{
+    
+    float: left;
+    width: 33.33%;
+    background-image: url(backgroundd.jpg);
+    
+    img {
+        padding-top: 15px;
+    }
+    button{
+        border: none;
+        float:left;
+        cursor: pointer;
+        border-radius: 10px;
+    border:2px solid black
+    }
+  }
+  
+  
+  /* Clear floats after the columns */
+  .level6:after {
+    content: "";
+    display: table;
+    clear: both;
+ 
+   
+  }
+
+
